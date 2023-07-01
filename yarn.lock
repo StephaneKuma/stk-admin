@@ -414,3 +414,8 @@ vue@^3.2.36:
     "@vue/runtime-dom" "3.2.36"
     "@vue/server-renderer" "3.2.36"
     "@vue/shared" "3.2.36"
+
+vuesax3@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/vuesax3/-/vuesax3-4.1.1.tgz#70cc8063765184f6dcb8b9ebaac571091a81ec0b"
+  integrity sha512-Didd5Lf9cuxBwUBizKlsjQIQgq5WJAC+rHGXW+9H+tdZXSzEJHjwkVhxasxviMHKsIyluHzMuFb1bLX4ffk4Eg==
