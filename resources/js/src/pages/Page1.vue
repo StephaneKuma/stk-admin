@@ -7,8 +7,12 @@
 
 <script setup>
 import { onMounted } from "vue"
+import { useRouter } from "vue-router";
+const router = useRouter();
+
 
 onMounted(() => {
     console.log('Page 1')
+    console.log(router.currentRoute.value)
 })
 </script>

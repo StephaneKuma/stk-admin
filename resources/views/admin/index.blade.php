@@ -6,12 +6,13 @@
 
         <title>{{ config('app.name') }}</title>
 
-        @vite(['resources/css/app.css'])
+        @vite(['resources/js/src/theme/sass/main.scss'])
     </head>
     <body>
-        <div id="app">
+        <div id="page-container" class="sidebar-o enable-page-overlay side-scroll page-header-classic main-content-boxed">
         </div>
 
+        @vite(['resources/js/src/theme/codebase/app.js'])
         @vite(['resources/js/app.js'])
     </body>
 </html>
